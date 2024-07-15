@@ -6,41 +6,59 @@ import optimization from '../../images/optimization.svg'
 import { ReactNode } from 'react';
 import { icon } from './icon';
 
-interface headerDatasProps {
+export interface headerDatasProps {
     id: number,
     title: string,
+    href: string,
     icon: (() => ReactNode) | null
 }
+
+export interface headerHrefsProps {
+    services: string,
+    comand: string,
+    direction: string,
+    tools: string,
+    clients: string,
+    portfolio: string,
+    [key: string]: string;
+}
+
 
 
 export const headerDatas: headerDatasProps[] = [
     {
         id: 1,
         title: "Услуги",
+        href: "#services",
         icon: null
     },
     {
         id: 2,
+        href: "#comand",
         title: "Команда",
         icon: null
     },
     {
         id: 3,
+        href: "#direction",
         title: "Напрaвление",
         icon: icon
     },
     {
         id: 4,
+        href: "#tools",
         title: "Инструменты",
         icon: null
     },
     {
         id: 5,
+        href: "#client",
         title: "Клиенты",
         icon: null
     },
     {
         id: 6,
+        href: "#portfolio",
         title: "Портфолио",
         icon: icon
     }

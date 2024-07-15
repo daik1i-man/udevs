@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{ 
+  font-family: "Manrope", sans-serif;
+}
 
 .header_list {
   position: relative;
@@ -28,4 +34,14 @@
 
 .header_list:hover .navigation_content {
   display: block;
+}
+
+.border_element.active {
+  width: 100%;
+  height: 1.5px;
+  display: block;
+  background-color: #1b5bf7;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  margin: -10px 0;
 }
