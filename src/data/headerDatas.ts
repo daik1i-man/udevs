@@ -1,10 +1,10 @@
-import developMobileApps from '../../images/develop-mobile-apps.svg'
-import erpSystem from '../../images/erp-system.svg'
-import design from '../../images/UX-UI-design.svg'
-import consulting from '../../images/IT-consulting.svg'
-import optimization from '../../images/optimization.svg'
+import developMobileApps from '../images/develop-mobile-apps.svg'
+import erpSystem from '../images/erp-system.svg'
+import design from '../images/UX-UI-design.svg'
+import consulting from '../images/IT-consulting.svg'
+import optimization from '../images/optimization.svg'
 import { ReactNode } from 'react';
-import { icon } from './icon';
+import { icon } from '../components/header/icon';
 
 export interface headerDatasProps {
     id: number,

@@ -1,5 +1,5 @@
 import logo from '../../images/udevs-logo.png';
-import { headerDatas, headerHrefsProps, headerDatasProps } from './datas';
+import { headerDatas, headerHrefsProps, headerDatasProps } from '../../data/headerDatas';
 import { Button } from '@nextui-org/react';
 import Image from "next/image";
 import Link from "next/link";
